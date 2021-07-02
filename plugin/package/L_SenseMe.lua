@@ -500,51 +500,21 @@ local SENSEME = {
   SENSEME_DEVICES = {
     {
       ID = "1",
-      SENSEME_NAME = "Bedroom Fan",
-      SENSEME_IP = "192.168.1.132",
-      NAME = "Bedroom Fan",
-      TYPE = "FAN",
-      VID = 0, -- will be assigned during matching
-    },
---    {
---      ID = "2",
---      SENSEME_NAME = "Master Bedroom Fan",
---      NAME = "Master Bedroom Fan Light",
---      TYPE = "DIMMER",
---      VID = 0, -- will be assigned during matching
---    },
-    {
-      ID = "3",
-      SENSEME_NAME = "Living Room Fan",
-      SENSEME_IP = "192.168.1.133",
-      NAME = "Living Room Fan",
+      SENSEME_NAME = "Master Bedroom Fan",
+      SENSEME_IP = "10.22.14.20", --static local ip of fan
+      NAME = "Master Bedroom Fan",
       TYPE = "FAN",
       VID = 0, -- will be assigned during matching
     },
     {
-      ID = "4",
-      SENSEME_NAME = "Cafe Fan",
-      SENSEME_IP = "192.168.1.134",
-      NAME = "Cafe Fan",
-      TYPE = "FAN",
+      ID = "2",
+      SENSEME_NAME = "Master Bedroom Fan",
+      SENSEME_IP = "10.22.14.20",
+      NAME = "Master Bedroom Light",
+      TYPE = "DIMMER",
       VID = 0, -- will be assigned during matching
     },
-    {
-      ID = "5",
-      SENSEME_NAME = "Spa Fan",
-      SENSEME_IP = "192.168.1.139",
-      NAME = "Spa Fan",
-      TYPE = "FAN",
-      VID = 0, -- will be assigned during matching
-    },
-    {
-      ID = "6",
-      SENSEME_NAME = "Guest Fan",
-      SENSEME_IP = "192.168.1.141",
-      NAME = "Guest Fan",
-      TYPE = "FAN",
-      VID = 0, -- will be assigned during matching
-    },
+
   },
 
   -- compile a list of configured devices and store in upnp variable
